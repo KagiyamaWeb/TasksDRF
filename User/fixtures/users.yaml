@@ -1,0 +1,23 @@
+- model: User.User
+  pk: 1
+  fields:
+    username: "user"
+    email: "user@email.com"
+    roles:
+      - 1
+
+- model: User.User
+  pk: 2
+  fields:
+    username: "operator"
+    email: "admin@email.com"
+    roles:
+      - 2
+  
+- model: User.User
+  pk: 3
+  fields:
+    username: "user2"
+    email: "user2@email.com"
+    roles:
+      - 1

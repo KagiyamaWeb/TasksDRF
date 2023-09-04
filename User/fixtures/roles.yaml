@@ -1,0 +1,26 @@
+- model: auth.group
+  pk: 1
+  fields:
+    name: "user_role"
+- model: auth.group
+  pk: 2
+  fields:
+    name: "admin_role"
+
+- model: User.role
+  pk: 1
+  fields:
+    description: "user"
+    group_ptr: 1
+
+- model: User.role
+  pk: 2
+  fields:
+    description: "admin"
+    group_ptr: 2
+
+- model: User.role
+  pk: 3
+  fields:
+    description: "adv_user"
+    group_ptr: 1

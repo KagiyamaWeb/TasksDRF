@@ -1,0 +1,23 @@
+- model: Tasks.Task
+  pk: 1
+  fields:
+    title: "task1"
+    description: "sample_description"
+    created_by: 2
+    assigned_to: 1
+
+- model: Tasks.Task
+  pk: 2
+  fields:
+    title: "task2"
+    description: "sample_description2"
+    created_by: 2
+    assigned_to: 1
+
+- model: Tasks.Task
+  pk: 3
+  fields:
+    title: "task3"
+    description: "sample_description3"
+    created_by: 2
+    assigned_to: 3
